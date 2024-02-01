@@ -206,41 +206,6 @@ section:nth-child(even) {
 
 /* icons section End */
 
-/* Service section Starts */
-.services .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap: 2rem;
-}
-
-.services .box-container .box {
-    background: #fff;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    border: var(--border);
-    padding: 2.5rem;
-}
-
-.services .box-container .box i {
-    color: var(--green);
-    font-size: 5rem;
-    padding-bottom: .5rem;
-}
-
-.services .box-container .box h3 {
-    color: var(--black);
-    font-size: 2.5rem;
-    padding: 1rem 0;
-}
-
-.services .box-container .box p {
-    color: var(--light-color);
-    font-size: 1.4rem;
-    line-height: 2;
-}
-
-/* Service section End */
-
 /* About section Start */
 .about .row {
     display: flex;
@@ -277,64 +242,7 @@ section:nth-child(even) {
 
 /* About section End  */
 
-/* Doctors section Starts */
-.doctors .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
-}
-
-.doctors .box-container .box {
-    text-align: center;
-    background: #fff;
-    border: var(--border);
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    padding: 2rem;
-}
-
-.doctors .box-container .box img {
-    height: 20rem;
-    border: var(--border);
-    border-radius: .5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.doctors .box-container .box h3 {
-    color: var(--black);
-    font-size: 2.5rem;
-}
-
-.doctors .box-container .box span {
-    color: var(--green);
-    font-size: 1.5rem;
-}
-
-.doctors .box-container .box .share {
-    padding-top: 2rem;
-}
-
-.doctors .box-container .box .share a {
-    height: 5rem;
-    width: 5rem;
-    line-height: 4.5rem;
-    font-size: 2rem;
-    color: var(--green);
-    border: var(--border);
-    border-radius: .5rem;
-    margin: .3rem;
-}
-
-.doctors .box-container .box .share a:hover {
-    background: var(--green);
-    color: #fff;
-    box-shadow: var(--box-shadow);
-}
-
-/* Doctors section End */
-
-/* Book section Starts */
+/* Contact section Starts */
 .book .row {
     display: flex;
     align-items: center;
@@ -381,9 +289,9 @@ section:nth-child(even) {
     padding: 1rem 4rem;
 }
 
-/* Book section End */
+/* Contact section End */
 
-/* Review section Starts */
+/* Testimonial section Starts */
 .review .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -442,76 +350,8 @@ section:nth-child(even) {
     z-index: -1;
 }
 
-/* Review section End */
+/* Testimonial section End */
 
-/* Blogs section Starts */
-.blogs .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
-}
-
-.blogs .box-container .box {
-    border: var(--border);
-    box-shadow: var(--box-shadow);
-    border-radius: .5rem;
-    padding: 2rem;
-}
-
-.blogs .box-container .box .image {
-    height: 20rem;
-    overflow: hidden;
-    border-radius: .5rem;
-}
-
-.blogs .box-container .box .image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.blogs .box-container .box:hover .image img {
-    transform: scale(1.2);
-}
-
-.blogs .box-container .box .content {
-    padding-top: 1rem;
-}
-
-.blogs .box-container .box .content .icon {
-    padding: 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.blogs .box-container .box .content .icon a {
-    font-size: 1.4rem;
-    color: var(--light-color);
-}
-
-.blogs .box-container .box .content .icon a:hover {
-    color: var(--green);
-}
-
-.blogs .box-container .box .content .icon a i {
-    padding-right: .5rem;
-    color: var(--green);
-}
-
-.blogs .box-container .box .content h3 {
-    color: var(--black);
-    font-size: 3rem;
-}
-
-.blogs .box-container .box .content p {
-    color: var(--light-color);
-    font-size: 1.5rem;
-    line-height: 1.8;
-    padding: 1rem 0;
-}
-
-/* Blogs section End */
 /* Footer section Starta */
 .footer .box-container {
     display: grid;
