@@ -36,21 +36,6 @@ section:nth-child(even) {
     background: #f5f5f5;
 }
 
-/* .heading {
-    text-align: center;
-    padding-bottom: 2rem;
-    text-shadow: var(--text-shadow);
-    text-transform: uppercase;
-    color: var(--black);
-    font-size: 5rem;
-    letter-spacing: .4rem;
-}
-
-.heading span {
-    text-transform: uppercase;
-    color: var(--green);
-} */
-
 .btn {
     display: inline-block;
     margin-top: 1rem;
