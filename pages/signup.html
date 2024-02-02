@@ -30,17 +30,18 @@
     </div>
     <!-- Header Section End -->
 
+    <!-- Signup section Starts  -->
     <section class="book" id="book">
         <div class="row">
             <div class="image">
                 <img src="../image/book-img.svg" alt="">
             </div>
-            <form action="">
+            <form action="/register" method="post">
                 <h3>Signup form</h3>
-                <input type="text" placeholder="Full name" class="box">
-                <input type="email" placeholder="E-mail" class="box">
-                <input type="password" placeholder="Password" class="box">
-                <input type="password" placeholder="Confirm Password" class="box">
+                <input type="text" placeholder="Full name" name="username" class="box">
+                <input type="email" placeholder="E-mail" name="email" class="box">
+                <input type="password" placeholder="Password" name="password" class="box">
+                <input type="password" placeholder="Confirm Password" name="confirm password" class="box">
 
                 <button type="submit" class="btn">
                     Signup
@@ -49,6 +50,7 @@
             </form>
         </div>
     </section>
+    <!-- Signup Section End -->
 
     <!-- Footer section Starts  -->
     <section class="footer">

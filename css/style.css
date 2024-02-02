@@ -339,11 +339,11 @@ section:nth-child(even) {
 .review .box-container .box::before {
     content: "";
     position: absolute;
-    top: -4rem;
-    left: 50%;
+    top: -3rem;
+    left: 65%;
     transform: translateX(-50%);
     background: var(--green);
-    border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 90%;
     border-bottom-right-radius: 50%;
     height: 25rem;
     width: 120%;
