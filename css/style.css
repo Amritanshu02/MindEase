@@ -114,6 +114,13 @@ section:nth-child(even) {
     margin-left: 2rem;
 }
 
+.header .navbar #avatar {
+    font-size: 3.5rem;
+    color: var(--green);
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
 .header .navbar a:hover {
     color: var(--green);
 }
