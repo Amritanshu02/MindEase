@@ -242,55 +242,6 @@ section:nth-child(even) {
 
 /* About section End  */
 
-/* Contact section Starts */
-.book .row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.book .row .image {
-    flex: 1 1 45rem;
-}
-
-.book .row .image img {
-    width: 100%;
-}
-
-.book .row form {
-    flex: 1 1 45rem;
-    background: #fff;
-    border: var(--border);
-    box-shadow: var(--box-shadow);
-    text-align: center;
-    padding: 2rem;
-    border-radius: .5rem;
-}
-
-.book .row form h3 {
-    color: var(--black);
-    padding-bottom: 1rem;
-    font-size: 3rem;
-}
-
-.book .row form .box {
-    width: 100%;
-    margin: .7rem 0;
-    border: var(--border);
-    border-radius: .5rem;
-    font-size: 1.6rem;
-    color: var(--black);
-    text-transform: none;
-    padding: 1rem;
-}
-
-.book .row form .btn {
-    padding: 1rem 4rem;
-}
-
-/* Contact section End */
-
 /* Testimonial section Starts */
 .review .box-container {
     display: grid;
@@ -351,6 +302,55 @@ section:nth-child(even) {
 }
 
 /* Testimonial section End */
+
+/* Contact section Starts */
+.book .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.book .row .image {
+    flex: 1 1 45rem;
+}
+
+.book .row .image img {
+    width: 100%;
+}
+
+.book .row form {
+    flex: 1 1 45rem;
+    background: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.book .row form h3 {
+    color: var(--black);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.book .row form .box {
+    width: 100%;
+    margin: .7rem 0;
+    border: var(--border);
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
+
+.book .row form .btn {
+    padding: 1rem 4rem;
+}
+
+/* Contact section End */
 
 /* Footer section Starta */
 .footer .box-container {

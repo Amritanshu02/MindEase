@@ -115,6 +115,7 @@ section:nth-child(even) {
 
 /* Header Section End */
 
+/* Signup Section Start */
 .book {
     padding-top: 9rem;
 }
@@ -164,6 +165,8 @@ section:nth-child(even) {
 .book .row form .btn {
     padding: 1rem 4rem;
 }
+
+/* Signup Section End */
 
 /* Footer section Starta */
 .footer .box-container {
